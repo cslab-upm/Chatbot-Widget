@@ -1,7 +1,10 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background: url('../img/body.png') no-repeat center center fixed;
+    /*background: url('../img/body.png') no-repeat center center fixed;*/
+    background: url('../img/body.png') 50% 0 no-repeat;
     background-size: cover;
+    background-position: top left;
+    position: relative;
 }
 
 
@@ -19,6 +22,19 @@ body {
     box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 #00000096;
 }
 
+/* .widget {
+    display: none;
+    width: 350px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f7f7f7;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 #00000096;
+} */
+
 .chat_header {
     height: 60px;
     background: rgb(90, 23, 238);
@@ -31,7 +47,7 @@ body {
     color: white;
     float: left;
     margin-top: 3%;
-    margin-left: 35%;
+    margin-left: 25%;
 }
 
 .chats {
